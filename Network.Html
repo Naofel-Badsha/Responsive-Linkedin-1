@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--------Fontawesome-----------Link-------Cdn-------->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--------Fontawesome-----------Link-------Cdn-------->
+    <!----------Main---------Css---------Link------------->
+    <link rel="stylesheet" href="Linkedin-1.Css">
+    <!----------Main---------Css---------Link------------->
+    <link rel="stylesheet" href="Network.Css">
+    <title>Network</title>
+</head>
+<body>
+        <!-----------Navbar----------Section---------Start------------->
+        <nav class="navbar">
+            <div class="navbar-left">
+              <a href="Profile.Html" class="logo"><img src="Img/linkedin-1.png"></a>
+      
+              <div class="search-box">
+                  <i class="fa-brands fa-searchengin"></i>
+                  <input type="search" placeholder="Search Me...?">
+              </div>
+            </div>
+            <div class="navbar-center">
+              <ul>
+                  <li><a href="Linkedin-1.Html" class="active-link"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+                  <li><a href="Network.Html"><i class="fa-solid fa-user"></i><span>My Network</span></a></li>
+                  <li><a href="Jobs.Html"><i class="fa-solid fa-briefcase"></i></i><span>Jobs</span></a></li>
+                  <li><a href="Messaging.Html"><i class="fa-solid fa-envelope"></i><span>Messaging</span></a></li>
+                  <li><a href="Notification.Html"><i class="fa-solid fa-bell-slash"></i><span>Notifications</span></a></li>
+              </ul>
+            </div>
+            <div class="navbar-right">
+              <div class="online">
+                  <img src="Img/My.jpeg" class="nave-profile" onclick="toggleMenu()">
+              </div>
+            </div>
+            <!------------Profile-------Drop-Down----------Menu-------------->
+            <div class="profile-menu-wrap" id="profileMenu">
+              <div class="profile-menu">
+                <div class="user-info">
+                  <img src="Img/My.jpeg">
+                  <div>
+                    <h3>Rayan Dal</h3>
+                    <a href="#">See You Profile</a>
+                  </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                  <i class="fa-solid fa-money-bill-transfer"></i>
+                  <p>Give Feedback</p>
+                  <span><i class="fa-solid fa-angle-right"></i></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <i class="fa-solid fa-gear"></i>
+                  <p>Settiing & Privacy</p>
+                  <span><i class="fa-solid fa-angle-right"></i></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <i class="fa-solid fa-circle-question"></i>
+                  <p>Help $ Support</p>
+                  <span><i class="fa-solid fa-angle-right"></i></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <i class="fa-solid fa-moon"></i>
+                  <p>Display & Accessiblity</p>
+                  <span><i class="fa-solid fa-angle-right"></i></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                  <i class="fa-solid fa-user-clock"></i>
+                  <p>Logout</p>
+                  <span><i class="fa-solid fa-angle-right"></i></span>
+                </a>
+              </div>
+            </div>
+        </nav>
+        <!-----------Navbar----------Section---------End------------->
+
+
+
+        <!---------Main-------Container--------Start---------->
+        <div class="container">
+          <!---------Left------Sidebar-------Start--------->
+          <div class="left-sidebar">
+             
+            <div class="sidebar-activity" id="sidebarActivity">
+              <h3>Manage my network</h3>
+              <a href="#"><i class="fa-solid fa-user"></i> Connetions</a>
+              <a href="#"><i class="fa-solid fa-user-group"></i> Fllowing & followers</a>
+              <a href="#"><i class="fa-solid fa-people-group"></i> Groups</a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i> Events</a>
+              <a href="#"><i class="fa-regular fa-file-lines"></i> Pages</a>
+              <a href="#"><i class="fa-solid fa-envelope-open-text"></i> NewsLetters</a>
+              <a href="#"><i class="fa-solid fa-hashtag"></i> Hashtag</a>
+            
+              <div class="activity-side-img">
+                <img src="Img/network-1.jpeg">
+              </div>
+            
+            </div>  
+          </div>
+
+
+
+
+
+            <!---------Medle------Content-------Start--------->
+            <div class="main-content">
+              <div class="create-post">
+                <div class="create-post-input">
+                  <img src="Img/My.jpeg">
+                  <textarea rows="2" placeholder="Write a post.....?"></textarea>
+                </div>
+                <div class="create-post-link">
+                  <li><i class="fa-solid fa-camera"></i>Photo</li>
+                  <li><i class="fa-solid fa-video"></i>Video</li>
+                  <li><i class="fa-solid fa-image"></i>Event</li>
+                  <li>Post</li>
+                </div>
+              </div>
+    
+              <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <i class="fa-solid fa-angle-down"></i></span></p>
+              </div>
+              <!-----------Post-----------1------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-1.jpg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/Post-1.jpg" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+              <!-----------Post-----------2------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-2.jpg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/Post-2.jpg" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+              <!-----------Post-----------3------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-3.jpg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/Post-3.jpg" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+              <!-----------Post-----------4------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-4.jpeg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/post-4.jpg" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+              <!-----------Post-----------5------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-5.jpeg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/Post-5.png" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+              <!-----------Post-----------6------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-6.jpeg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/Post-6 .jpg" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+              <!-----------Post-----------7------------>
+              <div class="post">
+                <div class="post-author">
+                  <img src="Img/Pro-7.jpeg">
+                  <div>
+                    <h1>Benjamin Leo</h1>
+                    <small>Founder and CEO Gellelio Group | Angel Investor</small>
+                    <small>2 Hours ago</small>
+                  </div>
+                </div>
+                <p>The Success of every website.</p>
+                <img src="Img/Post-7.png" width="100%">
+    
+                <div class="post-stats">
+                  <div>
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <i class="fa-solid fa-heart-pulse"></i>
+                    <i class="fa-solid fa-face-grin-hearts"></i>
+                    <span class="linked-user">Abhinav Mishor and 75 other</span>
+                  </div>
+                  <div>
+                    <span class="totel">22 Comments &middot; 40 Shares</span>
+                  </div>
+                </div>
+                <div class="post-activity">
+                  <div>
+                    <img src="Img/My.jpeg" class="post-activity-user-icon">
+                    <i class="post-activity-arro-icon fa-solid fa-caret-down"></i>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Like</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-comment-dots"></i>
+                    <span>Comment</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-share-from-square"></i>
+                    <span>Share</span>
+                  </div>
+                  <div class="post-activity-link">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <span>Sand</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!---------Medle------Content-------Start--------->
+        </div>
+        <!---------Main-------Container--------End---------->
+
+    <script src="Linkedin-1.Js"></script>
+</body>
+</html>
